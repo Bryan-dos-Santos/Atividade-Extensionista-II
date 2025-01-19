@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncia de Lixo e Entulho</title>
+    <link rel="stylesheet" href="style.css"><!--link com a referencia do arquivo que aplica o design da pagina-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Itajaí em Ação</h1>
+        <h2>Combate à Dengue</h2>
+        <img src="inseto (1).png" alt=""><!-- imagem inseto da logo -->
+
+        <nav class="navbar"><!-- barra de navegação -->
+            <a href="#">Formulário</a>
+            <a href="#prevencao">Prevenção</a>
+        </nav>
+    </header>
+    <section class="container" id="container">
+        <div class="welcome-section">
+            <h2>Olá, Bem-vindo!</h2>
+            <p>
+                Este projeto tem como objetivo permitir que os habitantes de Itajaí - SC relatem de forma rápida a presença de lixo e entulhos nas ruas à prefeitura, ajudando a combater a proliferação do mosquito Aedes aegypti pela cidade.
+            </p>
+            <p>
+                Além disso, busca facilitar a comunicação cidadã, estabelecendo um canal direto com as autoridades municipais, incentivando a participação ativa da comunidade na resolução de problemas, utilizando a tecnologia como principal aliada.
+            </p>
+            <div class="social-icons"><!-- link dos icones -->
+                <a href="https://www.linkedin.com/in/bryan-santos-51498616a/" target="_blank" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/bryansant__?igsh=MTRhem91c3VmaHpqdw%3D&utm_source=qr" target="_blank" class="icon instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Bryan-dos-Santos" target="_blank" class="icon github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="form-section"><!--estrutura do formulário -->
+            <h2>Formulário de Denúncia</h2>
+            <p></p>
+            <form action="https://formsubmit.co/itajaiemacao@gmail.com" method="POST"><!-- e-mail que será enviado as informações preenchidas -->
+                <input type="text" name="name" placeholder=" Digite seu Nome" required>
+                <input type="text" name="email" placeholder="Digite seu E-mail" required>
+                <input type="text" name="endereco" placeholder="Escreva o Endereço do Foco" required>
+                <textarea name="message" placeholder="Observações" required></textarea>
+                <button type="submit" value="Enviar">Enviar</button>
+            </form>
+        </div>
+        </section>
+
+
+        <section class="prevencao" id="prevencao"><!-- estrutura da aba prevenção -->
+            <h2>Dicas de Prevenção</h2>
+            <div class="prevencao-content">
+                <h3><span>1.</span> Eliminar os focos de água parada</h3>
+                <ul>
+                <li>Manter os pratos de vasos de flores e plantas com areia;</li>
+                <li>Guardar garrafas com a boca virada para baixo;</li>
+                <li>Limpar sempre as calhas dos canos;</li>
+                <li>Não jogar lixo em terrenos baldios;</li>
+                <li>Manter baldes, caixas d'água e piscinas sempre tampados;</li>
+                </ul>
+
+                <h3><span>2.</span> Evitar ser picado pelo mosquito</h3>
+                <ul>
+                <li>Usar calça comprida e blusa de manga comprida em tempos de epidemia;</li>
+                <li>Passar repelente diariamente nas áreas expostas do corpo, como rosto, orelhas, pescoço e mãos;</li>
+                <li>Ter telas de proteção em todas as janelas e portas da casa;</li>
+                <li>Acender velas repelentes de insetos, como vela de citronela;</li>
+                </ul>
+                
+                <h3><span>3.</span> Aplicar larvicidas</h3>
+                <ul>
+                <p>Aplicação de larvicidas em locais com água parada, ajudam a eliminar os ovos e as larvas do mosquito. Entretanto, essa aplicação deve ser sempre feita por profissionais indicados pelas secretarias de saúde das prefeituras.</p>
+                </ul>
+        
+                <h3><span>4.</span> Tomar a vacina da dengue</h3>
+                <ul>
+                <p>Está disponível no Brasil a vacina Qdenga que protege o corpo contra a dengue, indicada para pessoas de 4 a 60 anos de idade, que nunca tiveram dengue ou que já tiveram a infecção anteriormente. Essa vacina é disponibilizada gratuitamente pelo SUS.</p>
+                </ul>
+            </div>
+        </section>
+</body>
+</html>
+
